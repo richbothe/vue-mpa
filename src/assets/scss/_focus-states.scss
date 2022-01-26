@@ -1,0 +1,23 @@
+// Reset focus state to empty
+
+// Focus state
+*:focus {
+    border: none;
+    border-color: none !important;
+    box-shadow: none !important; // Outer glow
+    outline: none; // border
+    outline-offset: 0; // distance from element
+}
+
+// https://css-tricks.com/the-focus-visible-trick/
+// // Keyboard specific
+:focus-visible {
+    outline: $outline;
+    outline-offset: $outline-offset;
+    border: none;
+}
+
+// // Mouse, touch, stylus specific
+// :focus:not(:focus-visible) {
+//     outline: none;
+// }
