@@ -1,5 +1,5 @@
 {
-  "name": "vue-mpa",
+  "name": "yes-floor",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -8,7 +8,7 @@
     "build": "webpack --config webpack.prod.js"
   },
   "keywords": [],
-  "author": "Rich Bothe - Metro Transit",
+  "author": "Rich Bothe - Qsite Designs",
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "~7.2",
